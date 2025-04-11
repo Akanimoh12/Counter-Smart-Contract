@@ -5,6 +5,11 @@ contract Counter {
     uint256 private counterNumb;
     address public owner;
 
+    constructor(uint256 _initialValue) {
+        owner = msg.sender;
+        counterNumb = _initialValue;
+    }
+
     event NumberChanged(address indexed changer, uint256 newValue, string action);
 
     modifier onlyOwner() {
@@ -12,10 +17,6 @@ contract Counter {
         _;
     }
 
-    constructor(uint256 _initialValue) {
-        owner = msg.sender;
-        counterNumb = _initialValue;
-    }
 
     function increaseNumb() public onlyOwner returns (uint256) {
         counterNumb++;

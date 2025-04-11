@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simplePayable.sol": "SimplePayableContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simplePayable.sol": {
+			"keccak256": "0xe6aadb00bf6d1718770b41590888bbc86ee122ac2daad02dbeeb72c4c2823ef4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://231aff396ea9728f52d3fce89b676c5eaaca5f4e1e9271466b1d06452e2b21f0",
+				"dweb:/ipfs/QmYhGHPt6xQraw6yyU1VCmszJmrx3JUJ2kUtGKeRbS6vGy"
+			]
+		}
+	},
+	"version": 1
+}
