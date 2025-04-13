@@ -11,8 +11,46 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "contractBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -62,7 +100,7 @@
 				],
 				"name": "withdrawTo",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -98,11 +136,11 @@
 	},
 	"sources": {
 		"contracts/simplePayable.sol": {
-			"keccak256": "0x2b2a6aa33a0e3a0a2877425c9ba23ecdbcbf6c555f544ebc0e6c2efef90a2183",
+			"keccak256": "0xa3b24e3abfb2589b3e1ee98cc1d08f949be851b5d90834874a90790e894d4bd0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0493ba73fe438ebf824da67a52e76f3df12faa5c8e53574d7f7341718d3d1fd5",
-				"dweb:/ipfs/QmTC299TpFV8GQbEgkZ77uCDFq1f9gyocSeRomWrNHD82y"
+				"bzz-raw://2bbcd4f6705041af4fcb8eb7e2c8eca0859912c7ddb005402f860e8c60420f3e",
+				"dweb:/ipfs/QmaP7STYDoXns9mroXKiMvT1o2RX5z4yjSVtPvp4sFT7pQ"
 			]
 		}
 	},
