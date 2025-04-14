@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newArray",
+						"type": "uint256"
+					}
+				],
 				"name": "getNumbers",
 				"outputs": [
 					{
@@ -15,7 +21,7 @@
 						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -47,11 +53,11 @@
 	},
 	"sources": {
 		"contracts/DataTypes.sol": {
-			"keccak256": "0x063fb034f266310635db175205db837ef599c7ce619e8dc68f0e617f61f6e2b4",
+			"keccak256": "0x9e47a4846487fd203a2bf666c3891432fc450253a777365ee1ee4fbc37fbf70f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02c99cff9bc56a023bb7de0d5188c6e4fcfbee11d6e18b5519927c80148b20c2",
-				"dweb:/ipfs/QmRrWYTRt7cLzA2e9DuuFVeCHkHGkvwmx7bXnhXDvnbTxe"
+				"bzz-raw://1f4b2fc8ea761afc7d0484454d9cccc1ccbd05eadc13eeefb1f07aef88dd7825",
+				"dweb:/ipfs/QmT92MX44z6w2rdRYFzvjrnWWncX2FUfb4djo4FPzD9PW3"
 			]
 		}
 	},
