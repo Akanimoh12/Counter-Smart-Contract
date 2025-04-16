@@ -51,7 +51,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getAllStudent",
+				"name": "getAllStudentById",
 				"outputs": [
 					{
 						"components": [
@@ -208,11 +208,11 @@
 	},
 	"sources": {
 		"contracts/UserRegistry.sol": {
-			"keccak256": "0x96e932ae6e63dd3e13932aab11d5af8384c077650c5e03421ecd9fa6252c86a6",
+			"keccak256": "0xa168747e733f217049555051b32305c4a2710feb0d2ef90cacca44bb024da9f2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b44d06cd09dc9a7162d78b530c5e680a7bb7644a776c654839b12641736659f0",
-				"dweb:/ipfs/QmPqdZxdBGeZD6qL9kQuRA6kkXRvPqp9JpYfj8CRwwGR3n"
+				"bzz-raw://d91c082547d3e23f0b13d15afcc316a6613e8f71c45014e8df0facf87ff78378",
+				"dweb:/ipfs/QmTx3npu7bXyjkPkEDLUE2JxbU2L2BTbA3rPY9aTZTrmQc"
 			]
 		}
 	},

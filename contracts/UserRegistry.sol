@@ -26,9 +26,9 @@ contract UserRegistry {
         return users[_id];
     }
 
-    function getAllRegisteredStudent() public  view returns (UserInfo[] memory) {
-        return users;
-    }
+    // function getAllRegisteredStudent() public  view returns (UserInfo[] memory) {
+    //     return users;
+    // }
 
 
 }
