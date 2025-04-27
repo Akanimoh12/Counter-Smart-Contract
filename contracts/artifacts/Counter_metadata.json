@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_initialValue",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -22,41 +16,28 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "changer",
+						"name": "sender",
 						"type": "address"
 					},
 					{
 						"indexed": false,
 						"internalType": "uint256",
-						"name": "newValue",
+						"name": "_count",
 						"type": "uint256"
 					},
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "action",
+						"name": "changed",
 						"type": "string"
 					}
 				],
-				"name": "NumberChanged",
+				"name": "countChanged",
 				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "decreaseNumb",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getStoredNumber",
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -69,7 +50,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "increaseNumb",
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -77,6 +65,13 @@
 						"type": "uint256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -91,6 +86,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_count",
+						"type": "uint256"
+					}
+				],
+				"name": "setCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -122,11 +130,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x873bb74957843d6370bde6e68c4efb48d30bfefe9f2f200aed0534d8762ce174",
+			"keccak256": "0xda07a5ec0cd6651138a163d027a7372a89ac0a8686f55ab35d9a847f6d9edace",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://99b32a500617bb336034b8df464fce69a9c96354fe0777873e810df685589abc",
-				"dweb:/ipfs/QmSRGZ9f5gmTo1TA9LVc2GUwwkDiKFVWDCFmJVfKxznfrJ"
+				"bzz-raw://c4484bf329921832388672691146493ad2d445685909ca48f1f322e548c29a5f",
+				"dweb:/ipfs/Qme9wjveH8b842V8h6B2hrqgvRaASfkMvohgRngUaPR6DK"
 			]
 		}
 	},
