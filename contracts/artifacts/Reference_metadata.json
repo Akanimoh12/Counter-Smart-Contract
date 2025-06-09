@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_overEighteen",
+						"type": "bool"
+					}
+				],
+				"name": "setClass",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addr",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "time",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "overEighteen",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Reference.Class",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Basic.sol": "Reference"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Basic.sol": {
+			"keccak256": "0x22128aec5b2b94b475b1c817a00b36eb918ad3778154f278ff0e51448d1942c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c72213ae708f655de402df529e36ed3d1bdb52e17ab543cb570820bfa83314e6",
+				"dweb:/ipfs/Qmdc1XPZ3GrVtVKcM41Jo11Deiepmzb2VuXahdBY7ojh8B"
+			]
+		}
+	},
+	"version": 1
+}
